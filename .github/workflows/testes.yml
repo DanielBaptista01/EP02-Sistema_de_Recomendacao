@@ -1,0 +1,29 @@
+name: Testes Python e Neo4j
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    services:
+      neo4j:
+        image: neo4j:5.26.0-community
+        env:
+          NEO4J_AUTH: neo4j/ep02-ci-only-password
+        ports:
+          - 7474:7474
+        options: >-
+          --health-cmd "wget --quiet --spider http://localhost:7474 || exit 1"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Testes unitários e integração real
+        env:
+          NEO4J_PASSWORD: ep02-ci-only-password
+          EP02_TEST_NEO4J: '1'
+        run: python -m unittest discover -v

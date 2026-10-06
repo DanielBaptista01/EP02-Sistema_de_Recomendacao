@@ -1,0 +1,383 @@
+{
+  "neo4j": "5.26.0-community",
+  "python": "3.12.14",
+  "execucao": "movielens_seed42",
+  "importacao": {
+    "execucao": "movielens_seed42",
+    "filmes": 9742,
+    "usuarios": 610,
+    "avaliacoes": 80669,
+    "similaridades": 1658747
+  },
+  "contagens_reais": {
+    "filmes": 9742,
+    "avaliacoes": 80669
+  },
+  "arestas_reais": 1658747,
+  "top_usuario_1": [
+    {
+      "movie_id": 26903,
+      "titulo": "Whisper of the Heart (Mimi wo sumaseba) (1995)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 4,
+      "avaliacoes_treino": 4
+    },
+    {
+      "movie_id": 136016,
+      "titulo": "The Good Dinosaur (2015)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 3,
+      "avaliacoes_treino": 4
+    },
+    {
+      "movie_id": 151739,
+      "titulo": "Dirty Grandpa (2016)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 1,
+      "avaliacoes_treino": 4
+    },
+    {
+      "movie_id": 617,
+      "titulo": "Flower of My Secret, The (La flor de mi secreto) (1995)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 1,
+      "avaliacoes_treino": 3
+    },
+    {
+      "movie_id": 998,
+      "titulo": "Set It Off (1996)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 1,
+      "avaliacoes_treino": 3
+    },
+    {
+      "movie_id": 1837,
+      "titulo": "Odd Couple II, The (1998)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 1,
+      "avaliacoes_treino": 3
+    },
+    {
+      "movie_id": 2202,
+      "titulo": "Lifeboat (1944)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 1,
+      "avaliacoes_treino": 3
+    },
+    {
+      "movie_id": 2206,
+      "titulo": "Suspicion (1941)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 3,
+      "avaliacoes_treino": 3
+    },
+    {
+      "movie_id": 3029,
+      "titulo": "Nighthawks (1981)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 1,
+      "avaliacoes_treino": 3
+    },
+    {
+      "movie_id": 3115,
+      "titulo": "Flawless (1999)",
+      "nota": 5.0,
+      "metodo": "knn",
+      "vizinhos": 1,
+      "avaliacoes_treino": 3
+    }
+  ],
+  "comedias_usuario_1": [
+    {
+      "quantidade": 55,
+      "filmes": [
+        {
+          "titulo": "That Thing You Do! (1996)",
+          "movie_id": 1042,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Mask, The (1994)",
+          "movie_id": 367,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Go (1999)",
+          "movie_id": 2580,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Dazed and Confused (1993)",
+          "movie_id": 441,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Welcome to Woop-Woop (1997)",
+          "movie_id": 1793,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Howard the Duck (1986)",
+          "movie_id": 2450,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Billy Madison (1995)",
+          "movie_id": 216,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Road Trip (2000)",
+          "movie_id": 3617,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Groundhog Day (1993)",
+          "movie_id": 1265,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Big Trouble in Little China (1986)",
+          "movie_id": 3740,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Wayne's World (1992)",
+          "movie_id": 3253,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Grumpier Old Men (1995)",
+          "movie_id": 3,
+          "nota": 4.0
+        },
+        {
+          "titulo": "¡Three Amigos! (1986)",
+          "movie_id": 2478,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Duck Soup (1933)",
+          "movie_id": 1256,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Willy Wonka & the Chocolate Factory (1971)",
+          "movie_id": 1073,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Being John Malkovich (1999)",
+          "movie_id": 2997,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Crocodile Dundee (1986)",
+          "movie_id": 2470,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Office Space (1999)",
+          "movie_id": 2502,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Honey, I Shrunk the Kids (1989)",
+          "movie_id": 2054,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Back to the Future (1985)",
+          "movie_id": 1270,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Princess Bride, The (1987)",
+          "movie_id": 1197,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Monty Python's Life of Brian (1979)",
+          "movie_id": 1080,
+          "nota": 5.0
+        },
+        {
+          "titulo": "SLC Punk! (1998)",
+          "movie_id": 2596,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Back to the Future Part III (1990)",
+          "movie_id": 2012,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Lock, Stock & Two Smoking Barrels (1998)",
+          "movie_id": 2542,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Teenage Mutant Ninja Turtles III (1993)",
+          "movie_id": 3440,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Bottle Rocket (1996)",
+          "movie_id": 101,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Ed Wood (1994)",
+          "movie_id": 235,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Spaceballs (1987)",
+          "movie_id": 3033,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Jungle Book, The (1967)",
+          "movie_id": 2078,
+          "nota": 5.0
+        },
+        {
+          "titulo": "So I Married an Axe Murderer (1993)",
+          "movie_id": 543,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Romancing the Stone (1984)",
+          "movie_id": 2406,
+          "nota": 4.0
+        },
+        {
+          "titulo": "South Park: Bigger, Longer and Uncut (1999)",
+          "movie_id": 2700,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Rush Hour (1998)",
+          "movie_id": 2273,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Austin Powers: International Man of Mystery (1997)",
+          "movie_id": 1517,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Who Framed Roger Rabbit? (1988)",
+          "movie_id": 2987,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Hook (1991)",
+          "movie_id": 3489,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Very Bad Things (1998)",
+          "movie_id": 2387,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Blazing Saddles (1974)",
+          "movie_id": 3671,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Best Men (1997)",
+          "movie_id": 1473,
+          "nota": 4.0
+        },
+        {
+          "titulo": "What About Bob? (1991)",
+          "movie_id": 3809,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Dogma (1999)",
+          "movie_id": 3052,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Robin Hood (1973)",
+          "movie_id": 3034,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Grosse Pointe Blank (1997)",
+          "movie_id": 1500,
+          "nota": 4.0
+        },
+        {
+          "titulo": "American Tail, An (1986)",
+          "movie_id": 2141,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Fargo (1996)",
+          "movie_id": 608,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Beetlejuice (1988)",
+          "movie_id": 2174,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Big Lebowski, The (1998)",
+          "movie_id": 1732,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Forrest Gump (1994)",
+          "movie_id": 356,
+          "nota": 4.0
+        },
+        {
+          "titulo": "M*A*S*H (a.k.a. MASH) (1970)",
+          "movie_id": 5060,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Big (1988)",
+          "movie_id": 2797,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Three Musketeers, The (1993)",
+          "movie_id": 552,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Grumpy Old Men (1993)",
+          "movie_id": 3450,
+          "nota": 5.0
+        },
+        {
+          "titulo": "Wedding Singer, The (1998)",
+          "movie_id": 1777,
+          "nota": 4.0
+        },
+        {
+          "titulo": "Canadian Bacon (1995)",
+          "movie_id": 157,
+          "nota": 5.0
+        }
+      ]
+    }
+  ],
+  "equivalencia_python_cypher": true,
+  "segundos_importacao_e_consultas": 133.376
+}

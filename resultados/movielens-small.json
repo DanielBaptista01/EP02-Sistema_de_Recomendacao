@@ -1,0 +1,4801 @@
+{
+  "parametros": {
+    "k": 20,
+    "min_comuns": 3,
+    "top_n": 10,
+    "limiar_relevancia": 4.0
+  },
+  "notas": {
+    "quantidade": 20167,
+    "mae": 0.8112358213111502,
+    "rmse": 1.084411192701683,
+    "tp": 2571,
+    "fp": 895,
+    "fn": 7225,
+    "tn": 9476,
+    "precisao": 0.7417772648586266,
+    "recall": 0.2624540628828093,
+    "f1": 0.3877243251394963,
+    "metodos": {
+      "knn": 18163,
+      "media_filme": 1221,
+      "media_usuario": 783
+    },
+    "cobertura_knn": 0.9006297416571627
+  },
+  "ranking": {
+    "usuarios_avaliados": 593,
+    "usuarios_sem_relevantes": 17,
+    "precisao_macro": 0.0005059021922428331,
+    "recall_macro": 0.00010063485265628077,
+    "precisao_micro": 0.000505902192242833,
+    "recall_micro": 0.00030624744793793387,
+    "acertos": 3,
+    "relevantes": 9796,
+    "retornados": 5930,
+    "por_usuario": [
+      {
+        "user_id": 1,
+        "relevantes_teste": 40,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 2,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 3,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 4,
+        "relevantes_teste": 27,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 5,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 6,
+        "relevantes_teste": 27,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 7,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 8,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 9,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 10,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 11,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 12,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 13,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 14,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 15,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 16,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 17,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 18,
+        "relevantes_teste": 51,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 19,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 20,
+        "relevantes_teste": 25,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 21,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 22,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 23,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 24,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 25,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 26,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 27,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 28,
+        "relevantes_teste": 24,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 29,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 30,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 31,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 32,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 33,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 34,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 35,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 36,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 37,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 38,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 39,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 40,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 41,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 42,
+        "relevantes_teste": 54,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 43,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 44,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 45,
+        "relevantes_teste": 59,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 46,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 47,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 48,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 49,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 50,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 51,
+        "relevantes_teste": 48,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 52,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 53,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 55,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 56,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 57,
+        "relevantes_teste": 52,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 58,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 59,
+        "relevantes_teste": 19,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 60,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 61,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 62,
+        "relevantes_teste": 61,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 63,
+        "relevantes_teste": 33,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 64,
+        "relevantes_teste": 60,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 65,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 66,
+        "relevantes_teste": 42,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 67,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 68,
+        "relevantes_teste": 72,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 69,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 70,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 71,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 72,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 73,
+        "relevantes_teste": 25,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 74,
+        "relevantes_teste": 33,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 75,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 76,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 77,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 78,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 79,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 80,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 81,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 82,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 83,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 84,
+        "relevantes_teste": 23,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 85,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 86,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 87,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 88,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 89,
+        "relevantes_teste": 48,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 90,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 91,
+        "relevantes_teste": 43,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 92,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 93,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 94,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 95,
+        "relevantes_teste": 22,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 96,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 97,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 98,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 99,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 100,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 101,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 102,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 103,
+        "relevantes_teste": 60,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 104,
+        "relevantes_teste": 32,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 105,
+        "relevantes_teste": 97,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 106,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 107,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 108,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 109,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 110,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 111,
+        "relevantes_teste": 40,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 112,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 113,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 114,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 115,
+        "relevantes_teste": 19,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 116,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 117,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 118,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 119,
+        "relevantes_teste": 38,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 120,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 121,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 122,
+        "relevantes_teste": 47,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 123,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 124,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 125,
+        "relevantes_teste": 50,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 126,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 127,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 128,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 129,
+        "relevantes_teste": 22,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 130,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 131,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 132,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 134,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 135,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 136,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 137,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 138,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 139,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 140,
+        "relevantes_teste": 51,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 141,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 142,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 143,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 144,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 145,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 146,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 147,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 148,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 149,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 150,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 151,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 152,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 153,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 154,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 155,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 156,
+        "relevantes_teste": 38,
+        "retornados": 10,
+        "acertos": 1,
+        "precisao": 0.1,
+        "recall": 0.02631578947368421
+      },
+      {
+        "user_id": 157,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 158,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 159,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 160,
+        "relevantes_teste": 23,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 161,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 162,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 163,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 164,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 165,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 166,
+        "relevantes_teste": 25,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 167,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 168,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 169,
+        "relevantes_teste": 51,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 170,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 171,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 172,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 173,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 174,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 175,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 176,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 177,
+        "relevantes_teste": 84,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 178,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 179,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 180,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 181,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 182,
+        "relevantes_teste": 105,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 183,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 184,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 185,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 186,
+        "relevantes_teste": 41,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 187,
+        "relevantes_teste": 28,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 188,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 189,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 190,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 191,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 192,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 193,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 194,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 195,
+        "relevantes_teste": 23,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 196,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 197,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 198,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 199,
+        "relevantes_teste": 35,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 200,
+        "relevantes_teste": 42,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 201,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 202,
+        "relevantes_teste": 53,
+        "retornados": 10,
+        "acertos": 1,
+        "precisao": 0.1,
+        "recall": 0.018867924528301886
+      },
+      {
+        "user_id": 203,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 204,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 205,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 206,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 207,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 208,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 209,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 210,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 211,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 212,
+        "relevantes_teste": 26,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 213,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 214,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 215,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 216,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 217,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 218,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 219,
+        "relevantes_teste": 34,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 220,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 221,
+        "relevantes_teste": 63,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 222,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 223,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 224,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 225,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 226,
+        "relevantes_teste": 54,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 227,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 228,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 229,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 230,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 231,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 232,
+        "relevantes_teste": 44,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 233,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 234,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 235,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 236,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 237,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 238,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 239,
+        "relevantes_teste": 47,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 240,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 241,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 242,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 243,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 244,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 246,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 247,
+        "relevantes_teste": 26,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 248,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 249,
+        "relevantes_teste": 99,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 250,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 251,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 252,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 253,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 254,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 255,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 256,
+        "relevantes_teste": 34,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 258,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 259,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 260,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 261,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 263,
+        "relevantes_teste": 33,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 264,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 265,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 266,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 267,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 268,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 269,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 270,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 271,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 272,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 273,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 274,
+        "relevantes_teste": 80,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 275,
+        "relevantes_teste": 69,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 276,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 277,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 278,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 279,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 280,
+        "relevantes_teste": 34,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 281,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 282,
+        "relevantes_teste": 36,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 283,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 284,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 285,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 286,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 287,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 288,
+        "relevantes_teste": 58,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 289,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 290,
+        "relevantes_teste": 37,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 291,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 292,
+        "relevantes_teste": 28,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 294,
+        "relevantes_teste": 25,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 295,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 296,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 297,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 298,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 299,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 300,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 301,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 302,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 303,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 304,
+        "relevantes_teste": 35,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 305,
+        "relevantes_teste": 75,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 306,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 307,
+        "relevantes_teste": 35,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 308,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 309,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 310,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 312,
+        "relevantes_teste": 34,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 313,
+        "relevantes_teste": 44,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 314,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 315,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 317,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 318,
+        "relevantes_teste": 85,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 319,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 320,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 321,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 322,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 323,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 324,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 325,
+        "relevantes_teste": 30,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 326,
+        "relevantes_teste": 24,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 327,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 328,
+        "relevantes_teste": 23,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 330,
+        "relevantes_teste": 36,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 331,
+        "relevantes_teste": 23,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 332,
+        "relevantes_teste": 25,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 333,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 334,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 335,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 336,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 337,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 338,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 339,
+        "relevantes_teste": 50,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 340,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 341,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 342,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 343,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 344,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 345,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 346,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 347,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 348,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 349,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 350,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 351,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 352,
+        "relevantes_teste": 40,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 353,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 354,
+        "relevantes_teste": 33,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 355,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 356,
+        "relevantes_teste": 38,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 357,
+        "relevantes_teste": 45,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 358,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 359,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 360,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 361,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 362,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 364,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 365,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 366,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 367,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 368,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 369,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 370,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 371,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 372,
+        "relevantes_teste": 22,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 373,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 374,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 375,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 376,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 377,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 378,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 379,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 380,
+        "relevantes_teste": 137,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 381,
+        "relevantes_teste": 38,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 382,
+        "relevantes_teste": 28,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 383,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 385,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 386,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 387,
+        "relevantes_teste": 69,
+        "retornados": 10,
+        "acertos": 1,
+        "precisao": 0.1,
+        "recall": 0.014492753623188406
+      },
+      {
+        "user_id": 388,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 389,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 390,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 391,
+        "relevantes_teste": 59,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 393,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 395,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 396,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 397,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 398,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 399,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 400,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 401,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 402,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 403,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 404,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 405,
+        "relevantes_teste": 21,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 406,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 407,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 408,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 409,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 410,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 411,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 412,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 413,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 414,
+        "relevantes_teste": 258,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 415,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 416,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 417,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 418,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 419,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 420,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 421,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 422,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 423,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 424,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 425,
+        "relevantes_teste": 23,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 426,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 427,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 428,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 429,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 430,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 431,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 432,
+        "relevantes_teste": 33,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 433,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 434,
+        "relevantes_teste": 28,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 436,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 437,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 438,
+        "relevantes_teste": 46,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 439,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 440,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 441,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 443,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 444,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 445,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 446,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 447,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 448,
+        "relevantes_teste": 98,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 449,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 450,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 451,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 452,
+        "relevantes_teste": 39,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 453,
+        "relevantes_teste": 44,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 454,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 456,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 457,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 458,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 459,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 460,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 461,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 462,
+        "relevantes_teste": 48,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 463,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 464,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 465,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 466,
+        "relevantes_teste": 16,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 467,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 468,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 469,
+        "relevantes_teste": 59,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 470,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 471,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 472,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 473,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 474,
+        "relevantes_teste": 176,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 475,
+        "relevantes_teste": 28,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 476,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 477,
+        "relevantes_teste": 74,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 478,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 479,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 480,
+        "relevantes_teste": 56,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 481,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 482,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 483,
+        "relevantes_teste": 77,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 484,
+        "relevantes_teste": 40,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 485,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 486,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 487,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 488,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 489,
+        "relevantes_teste": 27,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 490,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 491,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 492,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 493,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 494,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 495,
+        "relevantes_teste": 40,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 496,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 497,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 498,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 499,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 500,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 501,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 502,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 503,
+        "relevantes_teste": 13,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 504,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 505,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 506,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 507,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 509,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 510,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 511,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 512,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 513,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 514,
+        "relevantes_teste": 38,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 515,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 516,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 517,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 518,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 519,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 520,
+        "relevantes_teste": 23,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 521,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 522,
+        "relevantes_teste": 26,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 523,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 524,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 525,
+        "relevantes_teste": 33,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 526,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 527,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 528,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 529,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 530,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 531,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 532,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 533,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 534,
+        "relevantes_teste": 56,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 535,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 536,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 537,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 538,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 539,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 540,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 541,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 542,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 543,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 544,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 545,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 546,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 547,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 548,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 549,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 550,
+        "relevantes_teste": 5,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 551,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 552,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 553,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 554,
+        "relevantes_teste": 15,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 555,
+        "relevantes_teste": 42,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 556,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 557,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 558,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 559,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 560,
+        "relevantes_teste": 38,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 561,
+        "relevantes_teste": 40,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 562,
+        "relevantes_teste": 34,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 563,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 564,
+        "relevantes_teste": 18,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 565,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 566,
+        "relevantes_teste": 12,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 567,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 568,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 569,
+        "relevantes_teste": 4,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 570,
+        "relevantes_teste": 8,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 571,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 572,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 573,
+        "relevantes_teste": 44,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 574,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 575,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 576,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 577,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 578,
+        "relevantes_teste": 1,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 579,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 580,
+        "relevantes_teste": 52,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 581,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 582,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 583,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 584,
+        "relevantes_teste": 14,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 585,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 586,
+        "relevantes_teste": 42,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 587,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 588,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 589,
+        "relevantes_teste": 6,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 590,
+        "relevantes_teste": 39,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 591,
+        "relevantes_teste": 7,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 592,
+        "relevantes_teste": 9,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 593,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 594,
+        "relevantes_teste": 38,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 595,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 596,
+        "relevantes_teste": 30,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 597,
+        "relevantes_teste": 70,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 598,
+        "relevantes_teste": 3,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 599,
+        "relevantes_teste": 29,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 600,
+        "relevantes_teste": 42,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 601,
+        "relevantes_teste": 20,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 602,
+        "relevantes_teste": 10,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 603,
+        "relevantes_teste": 120,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 604,
+        "relevantes_teste": 11,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 605,
+        "relevantes_teste": 17,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 606,
+        "relevantes_teste": 107,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 607,
+        "relevantes_teste": 26,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 608,
+        "relevantes_teste": 64,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 609,
+        "relevantes_teste": 2,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      },
+      {
+        "user_id": 610,
+        "relevantes_teste": 111,
+        "retornados": 10,
+        "acertos": 0,
+        "precisao": 0.0,
+        "recall": 0.0
+      }
+    ]
+  },
+  "dados": {
+    "formato": 1,
+    "seed": 42,
+    "k": 20,
+    "min_comuns": 3,
+    "treino": 80669,
+    "teste": 20167,
+    "fracao_teste_real": 0.19999801658137967,
+    "filmes": 9742,
+    "usuarios_treino": 610,
+    "similaridades": 1658747,
+    "sha256_treino": "2c2c43df417bc7e2fa113f64603cdd4f65476b4a66df926657dde2925078b182",
+    "sha256_teste": "96e59534fe01258d02c85be47153980ee86d6e0fe9cee47413f1f68ca3b27eef",
+    "sha256_movies_csv_origem": "5a5f32dd9bb3797b8e728a1b98958789d2b13f294a69fdfbc5727f8a9611aa07",
+    "sha256_ratings_csv_origem": "aa289ca83157595d0df6aea1be6a4ded676ddc4385472e8313a8ed9805352646",
+    "sha256_movies_csv": "e63ce88f1159d678e16aab2851566631432fd4e9b82b4ef855dc29150683b71e",
+    "sha256_similaridades_csv": "603b5f848928ffb3d2bc5427c9e4d035457db0babc265ba0dbfd9ce50dff63a7"
+  }
+}
