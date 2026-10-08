@@ -1,3 +1,5 @@
+**Nomes:**Daniel Santos Baptista e Isaias Maia de Oliveira
+
 # EP02 — Sistema de Recomendação de Filmes
 
 Filtragem colaborativa **item-item** com MovieLens, **Pearson**, regressão **KNN** e banco de grafos **Neo4j**. A implementação usa **somente a biblioteca padrão do Python**: CSVs, cálculos, métricas e comunicação HTTP foram implementados neste projeto, sem pandas, NumPy, scikit-learn, Surprise, APOC, GDS ou driver externo.
