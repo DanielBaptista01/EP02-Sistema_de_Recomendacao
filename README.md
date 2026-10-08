@@ -1,4 +1,4 @@
-**Nomes:**Daniel Santos Baptista e Isaias Maia de Oliveira
+**Nomes:** Daniel Santos Baptista e Isaias Maia de Oliveira
 
 # EP02 — Sistema de Recomendação de Filmes
 
